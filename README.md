@@ -8,7 +8,10 @@ Because reasons.
 * mkdir -p $WORKON_HOME
 * source /usr/bin/local/virtualenvwrapper.sh
 * mkvirtualenv --python=/usr/bin/python3 LUPYGFY
+* workon LUPYGFY
+[comment]: # (Maybe we should use pip -r requirements.txt instead?)
 * pip install Flask
+* pip install Flask-Testing
 
  ###To make virtualenv load with every instance, add this to ~/.bashrc:
 * export WORKON_HOME=$HOME/Envs
@@ -21,6 +24,7 @@ Because reasons.
 * Ngnix 
 * Python3.4
 * Python.Flask
+* Python.Flask-Testing
 
 ###Client Side Stack
 * Bootstrap 3.3

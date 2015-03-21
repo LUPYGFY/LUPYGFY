@@ -6,7 +6,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
+def run_server():
     """dummy documentation string"""
     return 'Hello World!'
 
