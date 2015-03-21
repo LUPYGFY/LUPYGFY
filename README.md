@@ -4,9 +4,16 @@ Because reasons.
 ##Technical details
  ###Building a Dev environment
 * sudo pip install virtualenvwrapper
+* export WORKON_HOME=~/Envs
+* mkdir -p $WORKON_HOME
 * source /usr/bin/local/virtualenvwrapper.sh
-* mkvritualenv --python=python3 lupygfy
-* pip install flask
+* mkvirtualenv --python=/usr/bin/python3 LUPYGFY
+* pip install Flask
+
+ ###To make virtualenv load with every instance, add this to ~/.bashrc:
+* export WORKON_HOME=$HOME/Envs
+* export PROJECT_HOME=$HOME/Devel
+* source /usr/local/bin/virtualenvwrapper.sh
 
 ###Server Stack
 * AWS
