@@ -2,7 +2,7 @@
 ##Why do we want to play your games for you?
 Because reasons.
 ##Technical details
- ###Building a Dev environment
+###Building a Dev environment
 * sudo pip install virtualenvwrapper
 * export WORKON_HOME=~/Envs
 * mkdir -p $WORKON_HOME
